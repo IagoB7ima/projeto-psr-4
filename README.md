@@ -4,7 +4,7 @@
 
 Repositório Criado Como Modelo de Estudo de Design Patterns php PSR-4.
 
-O PSR-4 descreve uma especificação para classes de carregamento automático de caminhos de arquivo. É totalmente interoperável e pode ser usado em adição a qualquer outra especificação de carregamento automático, incluindo PSR-0 . Este PSR também descreve onde colocar os arquivos que serão carregados automaticamente de acordo com a especificação.
+O PSR-4 diz respeito do autoloading de classes, ele diz como devemos estruturar nossos projetos para ter um autoload eficiente, cujo os arquivos só são carregados em memória quando precisamos deles.
 
 https://www.php-fig.org/psr/psr-4/
 
