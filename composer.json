@@ -1,11 +1,11 @@
 {
-    "name": "girorme/autoload-com-composer",
+    "name": "blima/autoload-com-composer",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "girorme",
-            "email": "rodrigo.girorme@gmail.com"
+            "name": "iago",
+            "email": "iagonumero1@gmail.com"
         }
     ],
     "require": {},
