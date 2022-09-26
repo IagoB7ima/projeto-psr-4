@@ -19,11 +19,11 @@ class Duelo
 
     public function start()
     {
-        echo sprintf('%s Quem é melhor?' . PHP_EOL, $this->tituloDoDuelo);
+        echo sprintf('%s Quem é melhor?<br>'. PHP_EOL, $this->tituloDoDuelo);
 
         $charsAndAttributes = array_map(function ($charAndAttr) {
             return sprintf(
-                'Jogador: %s, Habilidade: %s',
+                'Jogador: %s, Habilidade: %s<br>',
                 $charAndAttr->getName(),
                 $charAndAttr->getAttribute()
             );

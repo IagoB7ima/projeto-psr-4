@@ -12,7 +12,7 @@ $curry = new StephenCurry($arremesso);
 $enterrada = new Enterrada();
 $westbrook = new RussellWestbrook($enterrada);
 
-$duelo = new Duelo('Stephen Curry 1 X 1 Russell Westbrook!');
+$duelo = new Duelo('Stephen Curry 1 X 1 Russell Westbrook!<br>');
 $duelo->addChar($curry);
 $duelo->addChar($westbrook);
 $duelo->start();
