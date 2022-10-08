@@ -8,3 +8,6 @@ O PSR-4 diz respeito do autoloading de classes, ele diz como devemos estruturar 
 
 https://www.php-fig.org/psr/psr-4/
 
+###Comando para gerar a pastar Vendor 
+
+composer dump-autoload
